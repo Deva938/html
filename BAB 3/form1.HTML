@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Label yang terhubung dengan input-->
+    <label for="email">Alamat Email:</label>
+    <input type="email" id="email" name=email" required 
+    placeholder="contoh@gmail.com">
+
+    <!--Textarea-->
+    <label for="pesan">pesan:</label>
+    <textarea name="pesan" id="pesan" rows="5" cols="40" 
+                placeholder="Tuliskan pesan kamu di sini...."></textarea>
+
+    <!--select / Dropdown-->
+    <label for="jurusan">Plih Jurusan</label>
+    <select name="jurusan" id="jurusan">
+        <option value="">-- Pilih Jurusan --</option>
+        <optgroup label="Teknologi Informasi">
+            <option value="rpl">Rekayasa Perangkat Lunak</option>
+            <option value="tkj">Teknik Komputer Jaringan</option>
+        </optgroup>
+        <optgroup label="Bisnis">
+            <option value="ak">Akutansi</option>
+            <option value="pm">Pemasaran</option>
+        </optgroup>
+    </select>
+<!-- Fieldset & Legend -->
+ <fieldset>
+    <legend>Data Pribsdi</legend>
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama">
+ </fieldset>
+</body>
+</html>
